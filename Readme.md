@@ -2,7 +2,7 @@
 
 Add-on for [oXygen XML Editor](https://www.oxygenxml.com/xml_editor.html) with tools for editing, transforming, and analyzing dictionaries in [TEI Lex-0](https://bit.ly/tei-lex-0) format.
 
-The framework is associated only with files from `http://www.tei-c.org/ns/1.0` namespace with `@type='lex-0'` attribute value of the root element. 
+The framework is associated only with files from `http://www.tei-c.org/ns/1.0` namespace with `TEI` root element and `@type` attribute with value `lex-0'`. 
 
 ## Supported version of TEI Lex-0
 
@@ -13,13 +13,17 @@ The framework is associated only with files from `http://www.tei-c.org/ns/1.0` n
 ## Tools
 
 - templates
-- inserting entry with basic structure
-- separate view of the body with entries
-- separate view of the teiHeader
-- extraction of the list of the headwords
-- statistics of used elements and attributes
-- export to PDF
-- merging included entries (using XInclude) in one file
+  - dictionary with teiHeader and text 
+  - inserting entry with basic structure
+- author view 
+  - separate view of the body with entries
+  - separate view of the teiHeader
+  - colored parts of the text (grammar, defintion etc.)
+- trnasformation scenarios 
+  - extraction of the list of the headwords
+  - statistics of used elements and attributes
+  - export to PDF
+  - merging included entries (using XInclude) in one file
 
 ## Current state
 
