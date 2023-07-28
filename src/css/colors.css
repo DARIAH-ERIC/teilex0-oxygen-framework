@@ -1,0 +1,39 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+def {
+  color: blue;
+}
+gloss {
+  color: dodgerblue;
+}
+gram {
+  color: green;
+}
+metamark {
+  color: red;
+}
+quote {
+  color: maroon;
+}
+bibl[type="attestation"] {
+  color: brown;
+}
+bibl[type="attestation"] author {
+  color: chocolate;
+}
+bibl[type="attestation"] citedRange {
+  color: coral;
+}
+usg {
+  color: darkorange;
+}
+ref {
+  color: deeppink;
+}
+fw,
+cb,
+pb {
+  color: gray;
+}
+oxy|reference {
+  background-color: white !important;
+}
