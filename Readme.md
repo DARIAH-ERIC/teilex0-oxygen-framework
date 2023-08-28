@@ -10,7 +10,7 @@ The framework is associated only with files from `http://www.tei-c.org/ns/1.0` n
 - [0.9.1](https://github.com/DARIAH-ERIC/lexicalresources/releases/tag/v0.9.1)
 - [0.9.0](https://github.com/DARIAH-ERIC/lexicalresources/releases/tag/v0.9.0)
 
-## Tools
+## Features
 
 - templates
   - dictionary with teiHeader and text 
@@ -24,6 +24,9 @@ The framework is associated only with files from `http://www.tei-c.org/ns/1.0` n
   - statistics of used elements and attributes
   - export to PDF
   - merging included entries (using XInclude) in one file
+- Schematron QuickFixes
+  - &lt;bibl&gt; element is not allowed in &lt;sense&gt;
+  - &lt;def&gt; element is not allowed in &lt;cit&gt;
 
 ## Current state
 
@@ -81,6 +84,8 @@ You can also change files in the following subdirectories:
 - `schemas`
   - RNG or other types of schema used in the validation scenarios of edited files
   - catalog files with the association of the external resources with local files
+- `schematron-quick-fixes`
+  - schematron rules with [quick fixes](https://www.schematron-quickfix.com)
 -`templates`
   - templates for newly inserted documents, contain basic structure of valid TEI Lex-0 document
 -`xproc`
