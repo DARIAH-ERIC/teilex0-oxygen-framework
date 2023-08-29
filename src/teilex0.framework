@@ -934,9 +934,7 @@
 					</field>
 				</validationScenario></validationScenario-array>
 					</field>
-					<field name="defaultValidationScenarios">
-						<null/>
-					</field>
+					<field name="defaultValidationScenarios"><list><String>TEI Lex-0 with Quick Fixes</String></list></field>
 					<field name="defaultTransformationScenarios">
 						<null/>
 					</field>

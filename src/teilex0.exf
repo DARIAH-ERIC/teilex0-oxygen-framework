@@ -79,6 +79,9 @@ Open the teilex0.exf file in the Text mode, right click in the editor and choose
  
  <validationScenarios>
   <addScenarios href="resources/validation.scenarios"/>
+   <defaultScenarios>
+     <name>TEI Lex-0 with Quick Fixes</name>
+   </defaultScenarios>
  </validationScenarios>
 
 </script>
