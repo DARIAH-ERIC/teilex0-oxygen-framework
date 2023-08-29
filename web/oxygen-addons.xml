@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
     <xt:extension id="teilex0-oxygen-framework">
         <xt:location href="teilex0-oxygen-framework.zip"/>
-        <xt:version>1.5.1</xt:version>
+        <xt:version>1.5.2</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>framework</xt:type>
         <xt:author>Boris Lehečka</xt:author>
@@ -15,7 +15,7 @@
            <title>Java Classes Generator</title>
           </head>
           <body>
-         <h3>TEI Lex-0 Tools, version 1.5.1</h3>
+         <h3>TEI Lex-0 Tools, version 1.5.2</h3>
          <p>Tools for eiditing, transforming and analyzing dictionaries in <a href="https://bit.ly/tei-lex-0">TEI Lex-0</a> format in oXygen XML Editor.</p>
          <p>Supported version of TEI Lex-0:</p>
          <ul>
@@ -36,6 +36,10 @@
           <li>Schematron QuickFixes</li>
          </ul>
          <h3>History</h3>
+           <h4>1.5.2</h4>
+           <ul>
+            <li>Added <b>xml:lang</b> value of the parent entry in the inserted &lt;cit&gt; element</li>
+           </ul>
            <h4>1.5.1</h4>
            <ul>
             <li><b>TEI Lex-0 with Quick Fixes</b> as a default validation scenario</li>

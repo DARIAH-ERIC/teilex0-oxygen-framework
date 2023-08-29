@@ -5,6 +5,7 @@
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
  <sch:pattern>
      <sch:rule context="tei:sense/tei:bibl">
+         <sch:let name="lang" value="ancestor::tei:entry[@xml:lang]/@xml:lang"/>
          <sch:assert test="false()" sqf:fix="fix_bibl" role="warn">
              &lt;bibl&gt; element is not allowed in &lt;sense&gt;.
          </sch:assert>
@@ -16,6 +17,7 @@
              </sqf:description>
              <sqf:replace target="tei:cit" node-type="element">
                  <xsl:attribute name="type" select="'example'" />
+                 <xsl:attribute name="lang" namespace="http://www.w3.org/XML/1998/namespace" select="$lang" />
                  <xsl:text>
                  </xsl:text>
                  <xsl:copy-of select="." />
