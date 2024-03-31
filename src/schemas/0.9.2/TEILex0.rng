@@ -82,6 +82,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
             <ref name="model.global"/>
             <ref name="model.lLike"/>
             <ref name="xr"/>
+            <ref name="idno" /> <!-- BL: added for LeDIIR FACS -->
          </choice>
       </zeroOrMore>
    </define>
